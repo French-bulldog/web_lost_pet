@@ -54,7 +54,7 @@
         // 2. 建立資料庫連線
         String url = "jdbc:mysql://localhost:3306/animal?serverTimezone=UTC";
         String user = "root";
-        String password = "asd832406";
+        String password = "已Mark掉";
         Connection conn = DriverManager.getConnection(url, user, password);
         
         // 3. 建立 SQL 指令
