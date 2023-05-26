@@ -46,7 +46,7 @@ String created_at =  ft.format(date);
         Class.forName("com.mysql.cj.jdbc.Driver");
         String jdbcUrl = "jdbc:mysql://localhost:3306/animal?serverTimezone=UTC";
         String user = "root";
-        String password = "asd832406";
+        String password = "已mark掉";
         conn = DriverManager.getConnection(jdbcUrl, user, password);
         
         // 將提交的表單資料存入資料庫中
